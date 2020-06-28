@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/shipComputerButton"
+		android:icon="@drawable/ic_computer"
+		android:title="@string/shipComputer"
+		android:onClick="shipComputerClicked"/>
+	<item
+		android:id="@+id/scansButton"
+		android:icon="@drawable/ic_scan"
+		android:title="@string/scans"
+		android:onClick="scansClicked"/>
+	<item
+		android:id="@+id/mapButton"
+		android:icon="@drawable/ic_map"
+		android:title="@string/map"
+		android:onClick="mapClicked"/>
+	<item
+		android:id="@+id/preferencesButton"
+		android:icon="@drawable/ic_settings"
+		android:title="@string/preferences"
+		android:onClick="preferencesClicked"/>
+</menu>

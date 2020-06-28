@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory
+		app:key="login_category"
+		app:title="Login details">
+
+		<EditTextPreference
+			app:key="username"
+			app:title="Your username"/>
+
+		<EditTextPreference
+			app:key="password"
+			app:title="Your password" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		app:key="notification_category"
+		app:title="Notifications">
+		<SwitchPreferenceCompat
+			app:key="notifications"
+			app:title="Receive attack notifications?"/>
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		app:key="save_category"
+		app:title="Save">
+	<Preference
+		app:key="save"
+		app:title="Save your settings"
+		app:summary="Click here to save your settings"
+		android:onClick="foo"/>
+	</PreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>

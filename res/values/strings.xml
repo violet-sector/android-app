@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Violet Sector</string>
+
+    <string name="shipComputer">Main</string>
+    <string name="scans">Scans</string>
+    <string name="map">Map</string>
+    <string name="preferences">Settings</string>
+
+    <string name="default_channel_id" translatable="false">default_channel_id</string>
+    <string name="default_channel_name">TVS Update</string>
+    <string name="default_channel_desc" translatable="true">General TVS updates / new game announcements</string>
+
+    <string name="attack_channel_id" translatable="false">attack_channel_id</string>
+    <string name="attack_channel_name" translatable="false">TVS Attacks</string>
+    <string name="attack_channel_desc" translatable="false">Receive notifications when attacked</string>
+
+</resources>
